@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/local
+    username: local
+    password: local
+
+logging.level.org.springframework.jdbc.core: TRACE
